@@ -1,0 +1,36 @@
+{
+  "name": "movie-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development npx nodemon app.js",
+    "start": "nodemon bin/www.js",
+    "test": "npx jest --watchAll --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bymoharyadypto/movie-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bymoharyadypto/movie-api/issues"
+  },
+  "homepage": "https://github.com/bymoharyadypto/movie-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.7.3",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "jest": "^27.5.1",
+    "sequelize-cli": "^6.4.1",
+    "supertest": "^6.2.2"
+  }
+}
